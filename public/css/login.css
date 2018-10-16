@@ -1,0 +1,42 @@
+@media (max-width: 1000px) {
+	.form-signin {
+		margin: -30px 0px -10px 0px;
+
+	}
+}
+
+@media (max-width: 640px) {
+	.form-signin {
+		margin: -11px 0px -10px 0px;
+
+	}
+}
+
+.navbar {
+	border-top-left-radius: 0px; border-top-right-radius: 0px;
+}
+
+.navfixtop {
+	left: 0;
+	max-width: 100%;
+	overflow: visible;
+	position: fixed !important;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.content-wrap {
+	margin-top: 70px;
+}
+.main {
+	margin-top: 35px;
+}
+
+@media (max-width: 768px) {
+	.border-li {
+		border-top: 1px solid;
+	}
+	li.border-li > ul > li {
+		padding-left: 2%;
+	}
+}
